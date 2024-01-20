@@ -14,6 +14,7 @@ public class WebPage  extends DriverSetup{
     public void openGooglePageAndTestTitle(){
         browser.get("https://google.com/");
         Assert.assertEquals(browser.getTitle(), "Google");
+
     }
 
 }

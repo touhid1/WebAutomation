@@ -17,4 +17,6 @@ public class DriverSetup {
     public void quiteBrowser(){
         browser.quit();
     }
+
+    
 }
